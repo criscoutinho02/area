@@ -1,5 +1,7 @@
 package area
 
+import "math"
+
 //Pi é uma proporçao numerica definifa pela relação entre o perímetro de uma circunferência
 //e seu diâmetro
 const Pi = 3.1416
@@ -10,7 +12,7 @@ func Circ(raio float64) float64 {
 }
 
 //Rect é responsavel por calcular a area de um retângulo
-func Rect(base, altura) float64 {
+func Rect(base, altura float64) float64 {
 	return base * altura
 }
 
